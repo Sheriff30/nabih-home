@@ -12,28 +12,28 @@
     >
       <li>
         <a
-          href="#"
+          href="#home"
           class="px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-[#82645A] hover:text-white font-medium"
           >Home</a
         >
       </li>
       <li>
         <a
-          href="#"
+          href="#why-choose-us"
           class="px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-[#82645A] hover:text-white font-medium"
           >Why choose us</a
         >
       </li>
       <li>
         <a
-          href="#"
+          href="#how-it-works"
           class="px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-[#82645A] hover:text-white font-medium"
           >How it work</a
         >
       </li>
       <li>
         <a
-          href="#"
+          href="#contact-us"
           class="px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-[#82645A] hover:text-white font-medium"
           >Contact Us</a
         >
@@ -52,7 +52,7 @@
   </header>
 </div>
 <!-- Hero section -->
-<div class="px-[15px] py-[50px] lg:py-0 lg:px-[100px]">
+<div id="home" class="px-[15px] py-[50px] lg:py-0 lg:px-[100px]">
   <div
     class="grid lg:gap-0 lg:grid-cols-[auto_1fr] items-center justify-center max-w-[1340px] mx-auto hero-container lg:h-[750px]"
   >
@@ -83,7 +83,7 @@
 </div>
 
 <!-- Why choose us -->
-<div class="px-[15px] py-[50px] lg:py-[100px] lg:px-[100px]">
+<div id="why-choose-us" class="px-[15px] py-[50px] lg:py-[100px] lg:px-[100px]">
   <div class="max-w-[1340px] mx-auto grid gap-[60px]">
     <div class="flex flex-col gap-[24px] items-center text-center">
       <div
@@ -133,7 +133,7 @@
   </div>
 </div>
 <!-- How the app works -->
-<div class="px-[15px] py-[50px] lg:py-[100px] lg:px-[100px]">
+<div id="how-it-works" class="px-[15px] py-[50px] lg:py-[100px] lg:px-[100px]">
   <div
     class="max-w-[1340px] mx-auto grid gap-[60px] items-center justify-items-center lg:grid-cols-[1fr_1fr] lg:bg-[url(/app-layout.svg)] bg-no-repeat bg-bottom lg:bg-[length:1000px_470px] lg:gap-[80px] lg:px-[100px] lg:py-[50px]"
   >
@@ -231,7 +231,7 @@
 </div>
 
 <!-- Footer -->
-<footer class="px-[15px] lg:px-[100px] bg-[#392A4B]">
+<footer id="contact-us" class="px-[15px] lg:px-[100px] bg-[#392A4B]">
   <div
     class="max-w-[1340px] mx-auto flex justify-between gap-[50px] flex-wrap text-neutral-100 text-[14px] border-b py-[40px] border-neutral-100"
   >
@@ -335,29 +335,33 @@
         <ul class="flex flex-col gap-1">
           <li>
             <a
-              href="#"
+              href="#home"
               class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
               >Home</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="#why-choose-us"
               class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
               >Why choose us</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="#how-it-works"
               class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
               >How it work</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="#contact-us"
               class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
               >Contact Us</a
             >
           </li>
