@@ -1,4 +1,8 @@
-<div class="px-[15px] py-[40px] lg:px-[100px] lg:fixed w-full">
+<!-- Header -->
+<div
+  id="main-header"
+  class="px-[15px] py-[20px] lg:px-[100px] lg:fixed w-full transition-colors duration-300 shadow-md backdrop-blur-sm bg-white/80"
+>
   <header class="max-w-[1240px] mx-auto flex gap-[80px] items-center">
     <img src="/icons/logo.svg" alt="nabih logo" />
 
@@ -44,86 +48,8 @@
       <img src="/icons/menubar.svg" alt="menu" class="w-8 h-8" />
     </button>
   </header>
-  <!-- Mobile Menu -->
-  <div
-    class="fixed top-0 left-0 w-[100dvw] h-[100dvh] bg-black/30 hidden z-50 backdrop-blur-sm"
-    id="mobile-menu-overlay"
-  >
-    <div class="flex justify-end h-full">
-      <div class="bg-white w-[280px] h-full shadow-2xl flex flex-col">
-        <!-- Header with close button -->
-        <div
-          class="flex justify-between items-center p-6 border-b border-gray-100"
-        >
-          <img src="/icons/logo.svg" alt="nabih logo" class="h-8" />
-          <button
-            aria-label="Close menu"
-            class="p-2 hover:bg-gray-100 rounded-lg transition-colors"
-            onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              class="w-5 h-5 text-gray-600"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-        </div>
-
-        <!-- Navigation Links -->
-        <nav class="flex-1 p-6">
-          <ul class="flex flex-col gap-1">
-            <li>
-              <a
-                href="#"
-                class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
-                >Why choose us</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
-                >How it work</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-        </nav>
-
-        <!-- Footer with CTA button -->
-        <div class="p-6 border-t border-gray-100">
-          <a
-            href="#"
-            class="bg-[#82645A] text-white px-6 py-3 rounded-lg block text-center font-medium hover:bg-[#6b5248] transition-colors duration-200"
-            >Registration as a workshop</a
-          >
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
+<!-- Hero section -->
 <div class="px-[15px] py-[15px] lg:py-0 lg:px-[100px]">
   <div
     class="grid lg:gap-0 lg:grid-cols-[auto_1fr] items-center justify-center max-w-[1340px] mx-auto hero-container lg:h-[750px]"
@@ -151,5 +77,85 @@
       alt="hero image"
       class="lg:absolute top-0 right-0 max-w-[750px] hero-img w-full"
     />
+  </div>
+</div>
+
+<!-- Mobile Menu -->
+<div
+  class="fixed top-0 left-0 w-[100dvw] h-[100dvh] bg-black/20 hidden lg:hidden z-50 backdrop-blur-lg"
+  id="mobile-menu-overlay"
+>
+  <div class="flex justify-end h-full">
+    <div class="bg-white w-[280px] h-full shadow-2xl flex flex-col">
+      <!-- Header with close button -->
+      <div
+        class="flex justify-between items-center p-6 border-b border-gray-100"
+      >
+        <img src="/icons/logo.svg" alt="nabih logo" class="h-8" />
+        <button
+          aria-label="Close menu"
+          class="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+          onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-5 h-5 text-gray-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="flex-1 p-6">
+        <ul class="flex flex-col gap-1">
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              >Why choose us</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              >How it work</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Footer with CTA button -->
+      <div class="p-6 border-t border-gray-100">
+        <a
+          href="#"
+          class="bg-[#82645A] text-white px-6 py-3 rounded-lg block text-center font-medium hover:bg-[#6b5248] transition-colors duration-200"
+          >Registration as a workshop</a
+        >
+      </div>
+    </div>
   </div>
 </div>
