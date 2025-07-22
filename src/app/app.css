@@ -1,0 +1,32 @@
+@media screen and (max-width: 1300px) {
+  .hero-container {
+    height: 650px;
+  }
+  .hero-img {
+    max-width: 650px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hero-container {
+    height: 550px;
+  }
+  .hero-img {
+    max-width: 550px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .hero-container {
+    height: 800px;
+  }
+  .hero-img {
+    max-width: 800px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .hero-container {
+    height: auto;
+  }
+  .hero-img {
+    position: relative;
+  }
+}

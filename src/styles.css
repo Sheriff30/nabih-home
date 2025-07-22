@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@font-face {
+  font-family: "Lama Sans";
+  src: url("/fonts/lama-sans/LamaSans-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lama Sans";
+  src: url("/fonts/lama-sans/LamaSans-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lama Sans";
+  src: url("/fonts/lama-sans/LamaSans-RegularItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-family: "Lama Sans", sans-serif;
+}
