@@ -83,8 +83,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#home',
           start: 'top 80%',
-          end: 'bottom 20%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
@@ -104,8 +103,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#home',
           start: 'top 80%',
-          end: 'bottom 20%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
@@ -125,8 +123,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#why-choose-us',
           start: 'top 75%',
-          end: 'bottom 25%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
@@ -147,8 +144,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#why-choose-us .grid',
           start: 'top 75%',
-          end: 'bottom 25%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
@@ -168,8 +164,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#how-it-works',
           start: 'top 75%',
-          end: 'bottom 25%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
@@ -189,8 +184,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#how-it-works',
           start: 'top 75%',
-          end: 'bottom 25%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
@@ -211,8 +205,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#how-it-works ul',
           start: 'top 80%',
-          end: 'bottom 20%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
@@ -232,8 +225,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#download-app',
           start: 'top 75%',
-          end: 'bottom 25%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
@@ -253,8 +245,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#download-app',
           start: 'top 75%',
-          end: 'bottom 25%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
@@ -275,8 +266,7 @@ export class App implements AfterViewInit {
         scrollTrigger: {
           trigger: '#contact-us',
           start: 'top 80%',
-          end: 'bottom 20%',
-          toggleActions: 'play none none reverse',
+          toggleActions: 'play none none none',
         },
       }
     );
