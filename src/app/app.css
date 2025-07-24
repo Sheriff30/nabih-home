@@ -1,3 +1,22 @@
+/* Prevent overflow from animations */
+body {
+  overflow-x: hidden;
+}
+
+/* Ensure sections don't cause horizontal overflow */
+#home,
+#why-choose-us,
+#how-it-works,
+#download-app,
+#contact-us {
+  overflow-x: hidden;
+}
+
+/* Prevent mobile menu overlay from affecting scroll */
+#mobile-menu-overlay {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 1300px) {
   .hero-container {
     height: 650px;
