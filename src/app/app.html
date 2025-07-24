@@ -1,7 +1,7 @@
 <!-- Header -->
 <div
   id="main-header"
-  class="px-[15px] py-[20px] lg:px-[100px] lg:fixed w-full transition-colors duration-300 shadow-md backdrop-blur-sm bg-white/80"
+  class="px-[15px] py-[20px] lg:px-[100px] lg:fixed w-full transition-colors duration-300 shadow-md backdrop-blur-sm bg-white/80 z-50"
 >
   <header class="max-w-[1240px] mx-auto flex gap-[80px] items-center">
     <img src="/icons/logo.svg" alt="nabih logo" />
@@ -33,6 +33,13 @@
       </li>
       <li>
         <a
+          href="#download-app"
+          class="px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-[#82645A] hover:text-white font-medium"
+          >Download App</a
+        >
+      </li>
+      <li>
+        <a
           href="#contact-us"
           class="px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-[#82645A] hover:text-white font-medium"
           >Contact Us</a
@@ -60,8 +67,24 @@
       class="gap-[40px] flex flex-col items-center text-center lg:items-start lg:text-start max-w-[600px] lg:max-w-[400px] xl:max-w-[501px] w-full"
     >
       <h1 class="text-[28px] xl:text-[36px] font-bold leading-[46px]">
-        Automotive Maintenance and Workshop Management
-        <span class="#82645A"> Easily </span>
+        Automotive Maintenance and Workshop
+        <span class="relative inline-block">
+          Management
+          <svg
+            width="135"
+            height="20"
+            viewBox="0 0 135 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="absolute -ottom-[-10px] -right-0"
+          >
+            <path
+              d="M134.061 2.24548C56.7889 -2.79092 23.5138 5.71273 1.17602 9.23279C0.828869 12.1701 0.960715 14.5861 0.590991 19.2528C60.4863 -0.202845 100.416 2.99442 134.016 4.23382C134.03 3.86435 134.02 3.35389 134.061 2.24548Z"
+              fill="#82645A"
+            />
+          </svg>
+        </span>
+        <span class="text-[#82645A]"> Easily </span>
       </h1>
       <p>
         Excellent maintenance service and state-of-the-art workshop management,
@@ -163,7 +186,7 @@
             </p>
             <p class="text-neutral-600">
               "Start by easily registering your account in the app using your
-              phone number .
+              phone number."
             </p>
           </div>
         </li>
@@ -186,8 +209,8 @@
           <div class="flex flex-col gap-[10px]">
             <p class="text-[20px] font-bold">2. Enjoy our services</p>
             <p class="text-neutral-600">
-              You can start tracking and maintaining your car, or managing your
-              workshop and the services you offer.
+              "You can start tracking and maintaining your car, or managing your
+              workshop and the services you offer."
             </p>
           </div>
         </li>
@@ -197,7 +220,7 @@
 </div>
 
 <!-- download app -->
-<div class="px-[15px] pt-[50px] lg:pt-[100px] lg:px-[100px]">
+<div id="download-app" class="px-[15px] pt-[50px] lg:pt-[100px] lg:px-[100px]">
   <div
     class="max-w-[1340px] mx-auto grid gap-[60px] items-center justify-items-center lg:grid-cols-[1fr_1fr]"
   >
@@ -253,7 +276,7 @@
         </a>
         <a href="#" class="flex gap-[10px]">
           <img src="/icons/email.svg" alt="location" />
-          nabih@gmail.com
+          nabih&#64;gmail.com
         </a>
       </div>
     </div>
@@ -292,7 +315,7 @@
   </div>
   <div class="py-[32px] text-[12px] text-[#D6D6D6]">
     <div class="max-w-[1340px] mx-auto text-center md:text-start">
-      Copyright © 2025 ・ All rights reserved to Nabia
+      Copyright © 2025 ・ All rights reserved to Nabih
     </div>
   </div>
 </footer>
@@ -355,6 +378,14 @@
               class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
               onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
               >How it work</a
+            >
+          </li>
+          <li>
+            <a
+              href="#download-app"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+              >Download App</a
             >
           </li>
           <li>

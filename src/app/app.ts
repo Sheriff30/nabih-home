@@ -18,15 +18,13 @@ export class App implements AfterViewInit {
             header.classList.add(
               'bg-white/80',
               'shadow-md',
-              'backdrop-blur-sm',
-              'z-50'
+              'backdrop-blur-sm'
             );
           } else {
             header.classList.remove(
               'bg-white/80',
               'shadow-md',
-              'backdrop-blur-sm',
-              'z-50'
+              'backdrop-blur-sm'
             );
           }
         } else {
