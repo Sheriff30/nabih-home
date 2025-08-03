@@ -1,0 +1,353 @@
+<!-- Header -->
+<div
+  id="main-header"
+  class="px-[15px] py-[20px] lg:px-[100px] lg:fixed w-full transition-colors duration-300 shadow-md backdrop-blur-sm bg-white/80 z-50"
+>
+  <header class="max-w-[1240px] mx-auto flex gap-[80px] items-center">
+    <a href="/">
+      <img src="/icons/logo.svg" alt="nabih logo" />
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul
+      class="hidden lg:flex gap-6 items-center ml-auto w-full justify-between"
+    >
+      <li>
+        <a
+          href="/"
+          class="px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-[#82645A] hover:text-white font-medium"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href="/support"
+          class="px-4 py-2 rounded-lg transition-colors duration-200 bg-[#82645A] text-white font-medium"
+          >Support</a
+        >
+      </li>
+      <li>
+        <a
+          href="/privacy-policy"
+          class="px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-[#82645A] hover:text-white font-medium"
+          >Privacy Policy</a
+        >
+      </li>
+      <li>
+        <a
+          href="mailto:nabih@gmail.com"
+          class="px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-[#82645A] hover:text-white font-medium"
+          >Contact Us</a
+        >
+      </li>
+    </ul>
+
+    <!-- Mobile Menu Button -->
+    <button
+      id="menu-btn"
+      class="lg:hidden ml-auto"
+      aria-label="Open menu"
+      onclick="document.getElementById('mobile-menu-overlay').classList.toggle('hidden')"
+    >
+      <img src="/icons/menubar.svg" alt="menu" class="w-8 h-8" />
+    </button>
+  </header>
+</div>
+
+<!-- Support Hero Section -->
+<div class="pt-[120px] px-[15px] py-[50px] lg:py-[100px] lg:px-[100px]">
+  <div class="max-w-[1340px] mx-auto">
+    <div class="text-center mb-[60px]">
+      <h1 class="text-[28px] xl:text-[36px] font-bold leading-[46px] mb-[24px]">
+        Support Center
+      </h1>
+      <p class="text-[20px] text-neutral-600 max-w-[600px] mx-auto">
+        Get help with your Nabih app experience. We're here to assist you with
+        any questions or issues you may have.
+      </p>
+    </div>
+
+    <!-- Support Categories -->
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] mb-[80px]"
+    >
+      <!-- Getting Started -->
+      <div
+        class="bg-white p-[32px] rounded-[16px] shadow-lg border border-gray-100"
+      >
+        <div
+          class="w-[60px] h-[60px] bg-[#E6E2F2] rounded-[12px] flex items-center justify-center mb-[24px]"
+        >
+          <svg
+            class="w-8 h-8 text-[#7F5EA3]"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 10V3L4 14h7v7l9-11h-7z"
+            ></path>
+          </svg>
+        </div>
+        <h3 class="text-[24px] font-semibold mb-[16px]">Getting Started</h3>
+        <p class="text-neutral-600 mb-[24px]">
+          Learn how to set up your account, add vehicles, and start using Nabih
+          effectively.
+        </p>
+        <a
+          href="#getting-started"
+          class="text-[#82645A] font-medium hover:underline"
+        >
+          Learn more →
+        </a>
+      </div>
+
+      <!-- Account & Settings -->
+      <div
+        class="bg-white p-[32px] rounded-[16px] shadow-lg border border-gray-100"
+      >
+        <div
+          class="w-[60px] h-[60px] bg-[#F5F3F1] rounded-[12px] flex items-center justify-center mb-[24px]"
+        >
+          <svg
+            class="w-8 h-8 text-[#82645A]"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+            ></path>
+          </svg>
+        </div>
+        <h3 class="text-[24px] font-semibold mb-[16px]">Account & Settings</h3>
+        <p class="text-neutral-600 mb-[24px]">
+          Manage your profile, update settings, and customize your Nabih
+          experience.
+        </p>
+        <a
+          href="#account-settings"
+          class="text-[#82645A] font-medium hover:underline"
+        >
+          Learn more →
+        </a>
+      </div>
+
+      <!-- Workshop Management -->
+      <div
+        class="bg-white p-[32px] rounded-[16px] shadow-lg border border-gray-100"
+      >
+        <div
+          class="w-[60px] h-[60px] bg-[#E6E2F2] rounded-[12px] flex items-center justify-center mb-[24px]"
+        >
+          <svg
+            class="w-8 h-8 text-[#7F5EA3]"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+            ></path>
+          </svg>
+        </div>
+        <h3 class="text-[24px] font-semibold mb-[16px]">Workshop Management</h3>
+        <p class="text-neutral-600 mb-[24px]">
+          Learn how to manage your workshop, schedule appointments, and handle
+          customer requests.
+        </p>
+        <a
+          href="#workshop-management"
+          class="text-[#82645A] font-medium hover:underline"
+        >
+          Learn more →
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact Support -->
+    <div class="bg-[#F5F3F1] p-[60px] rounded-[24px] text-center">
+      <h2 class="text-[32px] font-bold mb-[24px]">Still need help?</h2>
+      <p class="text-[20px] text-neutral-600 mb-[40px] max-w-[600px] mx-auto">
+        Our support team is available to help you with any questions or issues
+        you may have.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-[20px] justify-center">
+        <a
+          href="mailto:support@nabih.com"
+          class="bg-[#82645A] text-white px-[40px] py-[16px] rounded-[16px] font-bold hover:bg-[#6b5248] transition-colors duration-200"
+        >
+          Email Support
+        </a>
+        <a
+          href="tel:+96612345678"
+          class="border-2 border-[#82645A] text-[#82645A] px-[40px] py-[16px] rounded-[16px] font-bold hover:bg-[#82645A] hover:text-white transition-colors duration-200"
+        >
+          Call Us
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="px-[15px] lg:px-[100px] bg-[#392A4B]">
+  <div
+    class="max-w-[1340px] mx-auto flex justify-between gap-[50px] flex-wrap text-neutral-100 text-[14px] border-b py-[40px] border-neutral-100"
+  >
+    <!-- col 1 -->
+    <div class="flex flex-col gap-[32px]">
+      <img
+        src="/icons/footer-logo.svg"
+        alt="nabih logo"
+        class="w-[100px] h-[25px]"
+      />
+      <div class="flex flex-col gap-[24px]">
+        <a href="#" class="flex gap-[10px]">
+          <img src="/icons/location.svg" alt="location" />
+          2 Abi Rabiea Suleiman Street, Al-Hofuf
+        </a>
+        <a
+          href="tel:+96612345678"
+          class="flex gap-[10px] hover:text-[#82645A] transition-colors duration-200"
+        >
+          <img src="/icons/phone.svg" alt="phone" />
+          +966 12345678
+        </a>
+        <a
+          href="mailto:nabih@gmail.com"
+          class="flex gap-[10px] hover:text-[#82645A] transition-colors duration-200"
+        >
+          <img src="/icons/email.svg" alt="email" />
+          nabih&#64;gmail.com
+        </a>
+      </div>
+    </div>
+
+    <!-- col 2 -->
+    <div class="flex flex-col gap-[32px]">
+      <div class="font-semibold">Resources</div>
+      <div class="flex flex-col gap-[16px]">
+        <a href="#">Download</a>
+        <a href="/support">Help Centre</a>
+        <a href="#">Register as a workshop</a>
+      </div>
+    </div>
+    <!-- col 3 -->
+    <div class="flex flex-col gap-[32px]">
+      <div class="font-semibold">Legal</div>
+      <div class="flex flex-col gap-[16px]">
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+    <!-- col 4 -->
+    <div class="flex flex-col gap-[32px]">
+      <div class="font-semibold">Follow Us</div>
+      <div class="flex gap-[16px]">
+        <a href="#"><img src="/icons/facebook.svg" alt="" /></a>
+        <a href="#"><img src="/icons/insta.svg" alt="" /></a>
+        <a href="#"><img src="/icons/youtube.svg" alt="" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="py-[32px] text-[12px] text-[#D6D6D6]">
+    <div class="max-w-[1340px] mx-auto text-center md:text-start">
+      Copyright © 2025 ・ All rights reserved to Nabih
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile Menu -->
+<div
+  class="fixed top-0 left-0 w-[100dvw] h-[100dvh] bg-black/20 hidden lg:hidden z-50 backdrop-blur-lg"
+  id="mobile-menu-overlay"
+>
+  <div class="flex justify-end h-full">
+    <div class="bg-white w-[280px] h-full shadow-2xl flex flex-col">
+      <!-- Header with close button -->
+      <div
+        class="flex justify-between items-center p-6 border-b border-gray-100"
+      >
+        <img src="/icons/logo.svg" alt="nabih logo" class="h-8" />
+        <button
+          aria-label="Close menu"
+          class="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+          onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-5 h-5 text-gray-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="flex-1 p-6">
+        <ul class="flex flex-col gap-1">
+          <li>
+            <a
+              href="/"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="/support"
+              class="block px-4 py-3 bg-[#82645A] text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+              >Support</a
+            >
+          </li>
+          <li>
+            <a
+              href="/privacy-policy"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+              >Privacy Policy</a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:nabih@gmail.com"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Footer with CTA button -->
+      <div class="p-6 border-t border-gray-100">
+        <a
+          href="#"
+          class="bg-[#82645A] text-white px-6 py-3 rounded-lg block text-center font-medium hover:bg-[#6b5248] transition-colors duration-200"
+          >Registration as a workshop</a
+        >
+      </div>
+    </div>
+  </div>
+</div>

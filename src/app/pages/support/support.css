@@ -1,0 +1,20 @@
+/* Support page specific styles */
+.support-hero {
+  background: linear-gradient(135deg, #F5F3F1 0%, #E6E2F2 100%);
+}
+
+.support-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+} 
