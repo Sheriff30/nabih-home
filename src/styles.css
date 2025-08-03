@@ -36,3 +36,15 @@ section[id],
 div[id] {
   scroll-margin-top: 100px;
 }
+.privacy-content h1,
+.privacy-content h2,
+.privacy-content h3,
+.privacy-content h4,
+.privacy-content h5,
+.privacy-content h6 {
+  margin-bottom: 5px;
+}
+
+.privacy-content p {
+  margin-bottom: 5px;
+}

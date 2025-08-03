@@ -1,51 +1,93 @@
-/* Privacy Policy page specific styles */
+/* Privacy Policy Content Styles */
 .privacy-content {
+  hyphens: none;
   line-height: 1.6;
+  color: #374151;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: keep-all;
 }
 
-.privacy-content h2 {
-  color: #35231A;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+/* RTL Support for Arabic */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
 }
 
-.privacy-content h3 {
-  color: #82645A;
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem;
+[dir="rtl"] .privacy-content ul,
+[dir="rtl"] .privacy-content ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
 }
 
-.privacy-content ul {
-  margin-bottom: 1rem;
+[dir="rtl"] .privacy-content h1,
+[dir="rtl"] .privacy-content h2,
+[dir="rtl"] .privacy-content h3,
+[dir="rtl"] .privacy-content h4,
+[dir="rtl"] .privacy-content h5,
+[dir="rtl"] .privacy-content h6 {
+  text-align: right;
 }
 
-.privacy-content li {
-  margin-bottom: 0.5rem;
+[dir="rtl"] .privacy-content p {
+  text-align: right;
 }
 
-.privacy-content p {
-  margin-bottom: 1rem;
+[dir="rtl"] .privacy-content li {
+  text-align: right;
+}
+
+[dir="rtl"] .privacy-content h2 {
+  border-right: 4px solid #82645a;
+  border-left: none;
+  padding-right: 1rem;
+  padding-left: 0;
+}
+
+[dir="rtl"] .privacy-content blockquote {
+  border-right: 4px solid #82645a;
+  border-left: none;
+  padding-right: 1rem;
+  padding-left: 0;
+}
+
+[dir="rtl"] .privacy-content th,
+[dir="rtl"] .privacy-content td {
+  text-align: right;
+}
+
+/* LTR Support for English */
+[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+[dir="ltr"] .privacy-content h1,
+[dir="ltr"] .privacy-content h2,
+[dir="ltr"] .privacy-content h3,
+[dir="ltr"] .privacy-content h4,
+[dir="ltr"] .privacy-content h5,
+[dir="ltr"] .privacy-content h6 {
+  text-align: left;
+}
+
+[dir="ltr"] .privacy-content p {
+  text-align: left;
+}
+
+[dir="ltr"] .privacy-content li {
+  text-align: left;
+}
+
+[dir="ltr"] .privacy-content th,
+[dir="ltr"] .privacy-content td {
+  text-align: left;
 }
 
 /* Contact info box styling */
 .contact-info {
-  background: #F5F3F1;
+  background: #f5f3f1;
   border-radius: 12px;
   padding: 24px;
-  margin-top: 1rem;
 }
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .privacy-content {
-    font-size: 14px;
-  }
-  
-  .privacy-content h2 {
-    font-size: 20px;
-  }
-  
-  .privacy-content h3 {
-    font-size: 18px;
-  }
-} 
