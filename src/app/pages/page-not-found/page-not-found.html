@@ -1,1 +1,392 @@
-<p>page-not-found works!</p>
+<!-- Header -->
+<header class="px-[15px] lg:px-[100px] bg-white border-b border-gray-100">
+  <div
+    class="max-w-[1340px] mx-auto flex justify-between items-center py-[20px]"
+  >
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-[10px]">
+      <img src="/icons/logo.svg" alt="nabih logo" class="h-8" />
+    </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="hidden lg:flex items-center gap-[40px]">
+      <a
+        href="/"
+        class="text-neutral-700 hover:text-[#82645A] transition-colors duration-200"
+        >Home</a
+      >
+      <a
+        href="/support"
+        class="text-neutral-700 hover:text-[#82645A] transition-colors duration-200"
+        >Support</a
+      >
+      <a
+        href="/privacy-policy"
+        class="text-neutral-700 hover:text-[#82645A] transition-colors duration-200"
+        >Privacy Policy</a
+      >
+      <a
+        href="mailto:nabih@gmail.com"
+        class="text-neutral-700 hover:text-[#82645A] transition-colors duration-200"
+        >Contact Us</a
+      >
+    </nav>
+
+    <!-- CTA Button -->
+    <div class="hidden lg:flex items-center gap-[20px]">
+      <a
+        href="#"
+        class="bg-[#82645A] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#6b5248] transition-colors duration-200"
+      >
+        Registration as a workshop
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button
+      class="lg:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors"
+      onclick="document.getElementById('mobile-menu-overlay').classList.remove('hidden')"
+    >
+      <img src="/icons/menubar.svg" alt="menu" />
+    </button>
+  </div>
+</header>
+
+<!-- Main Content -->
+<div class="min-h-screen bg-[#F8F7F4]">
+  <div class="px-[15px] lg:px-[100px] py-[80px]">
+    <div class="max-w-[1340px] mx-auto text-center">
+      <!-- 404 Icon -->
+      <div class="mb-[40px]">
+        <div
+          class="w-[120px] h-[120px] bg-[#E6E2F2] rounded-full flex items-center justify-center mx-auto mb-[24px]"
+        >
+          <svg
+            class="w-16 h-16 text-[#7F5EA3]"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.47-.881-6.08-2.33"
+            ></path>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Error Message -->
+      <div class="mb-[40px]">
+        <h1
+          class="text-[64px] lg:text-[80px] font-bold text-[#35231A] mb-[16px]"
+        >
+          404
+        </h1>
+        <h2
+          class="text-[32px] lg:text-[40px] font-semibold text-[#35231A] mb-[16px]"
+        >
+          Page Not Found
+        </h2>
+        <p class="text-[18px] text-neutral-600 max-w-[600px] mx-auto">
+          Oops! The page you're looking for doesn't exist. It might have been
+          moved, deleted, or you entered the wrong URL.
+        </p>
+      </div>
+
+      <!-- Action Buttons -->
+      <div
+        class="flex flex-col sm:flex-row gap-[16px] justify-center mb-[60px]"
+      >
+        <a
+          href="/"
+          class="bg-[#82645A] text-white px-8 py-4 rounded-lg font-medium hover:bg-[#6b5248] transition-colors duration-200 text-[16px]"
+        >
+          Go to Homepage
+        </a>
+        <a
+          href="/support"
+          class="border border-[#82645A] text-[#82645A] px-8 py-4 rounded-lg font-medium hover:bg-[#82645A] hover:text-white transition-colors duration-200 text-[16px]"
+        >
+          Get Help
+        </a>
+      </div>
+
+      <!-- Helpful Links -->
+      <div
+        class="bg-white p-[40px] rounded-[16px] shadow-lg border border-gray-100 max-w-[800px] mx-auto"
+      >
+        <h3 class="text-[24px] font-semibold mb-[24px] text-[#35231A]">
+          Popular Pages
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-[20px]">
+          <a
+            href="/"
+            class="flex items-center gap-[12px] p-[16px] rounded-lg hover:bg-gray-50 transition-colors duration-200"
+          >
+            <div
+              class="w-[40px] h-[40px] bg-[#F5F3F1] rounded-lg flex items-center justify-center"
+            >
+              <svg
+                class="w-5 h-5 text-[#82645A]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-left">
+              <div class="font-medium text-[#35231A]">Homepage</div>
+              <div class="text-sm text-neutral-600">Back to the main page</div>
+            </div>
+          </a>
+
+          <a
+            href="/support"
+            class="flex items-center gap-[12px] p-[16px] rounded-lg hover:bg-gray-50 transition-colors duration-200"
+          >
+            <div
+              class="w-[40px] h-[40px] bg-[#F5F3F1] rounded-lg flex items-center justify-center"
+            >
+              <svg
+                class="w-5 h-5 text-[#82645A]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-left">
+              <div class="font-medium text-[#35231A]">Support Center</div>
+              <div class="text-sm text-neutral-600">Get help and answers</div>
+            </div>
+          </a>
+
+          <a
+            href="/privacy-policy"
+            class="flex items-center gap-[12px] p-[16px] rounded-lg hover:bg-gray-50 transition-colors duration-200"
+          >
+            <div
+              class="w-[40px] h-[40px] bg-[#F5F3F1] rounded-lg flex items-center justify-center"
+            >
+              <svg
+                class="w-5 h-5 text-[#82645A]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-left">
+              <div class="font-medium text-[#35231A]">Privacy Policy</div>
+              <div class="text-sm text-neutral-600">
+                Learn about data protection
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="mailto:nabih@gmail.com"
+            class="flex items-center gap-[12px] p-[16px] rounded-lg hover:bg-gray-50 transition-colors duration-200"
+          >
+            <div
+              class="w-[40px] h-[40px] bg-[#F5F3F1] rounded-lg flex items-center justify-center"
+            >
+              <svg
+                class="w-5 h-5 text-[#82645A]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="text-left">
+              <div class="font-medium text-[#35231A]">Contact Us</div>
+              <div class="text-sm text-neutral-600">
+                Get in touch with our team
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="px-[15px] lg:px-[100px] bg-[#392A4B]">
+  <div
+    class="max-w-[1340px] mx-auto flex justify-between gap-[50px] flex-wrap text-neutral-100 text-[14px] border-b py-[40px] border-neutral-100"
+  >
+    <!-- col 1 -->
+    <div class="flex flex-col gap-[32px]">
+      <img
+        src="/icons/footer-logo.svg"
+        alt="nabih logo"
+        class="w-[100px] h-[25px]"
+      />
+      <div class="flex flex-col gap-[24px]">
+        <a href="#" class="flex gap-[10px]">
+          <img src="/icons/location.svg" alt="location" />
+          2 Abi Rabiea Suleiman Street, Al-Hofuf
+        </a>
+        <a
+          href="tel:+96612345678"
+          class="flex gap-[10px] hover:text-[#82645A] transition-colors duration-200"
+        >
+          <img src="/icons/phone.svg" alt="phone" />
+          +966 12345678
+        </a>
+        <a
+          href="mailto:nabih@gmail.com"
+          class="flex gap-[10px] hover:text-[#82645A] transition-colors duration-200"
+        >
+          <img src="/icons/email.svg" alt="email" />
+          nabih&#64;gmail.com
+        </a>
+      </div>
+    </div>
+
+    <!-- col 2 -->
+    <div class="flex flex-col gap-[32px]">
+      <div class="font-semibold">Resources</div>
+      <div class="flex flex-col gap-[16px]">
+        <a href="#">Download</a>
+        <a href="/support">Help Centre</a>
+        <a href="#">Register as a workshop</a>
+      </div>
+    </div>
+    <!-- col 3 -->
+    <div class="flex flex-col gap-[32px]">
+      <div class="font-semibold">Legal</div>
+      <div class="flex flex-col gap-[16px]">
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+    <!-- col 4 -->
+    <div class="flex flex-col gap-[32px]">
+      <div class="font-semibold">Follow Us</div>
+      <div class="flex gap-[16px]">
+        <a href="#"><img src="/icons/facebook.svg" alt="" /></a>
+        <a href="#"><img src="/icons/insta.svg" alt="" /></a>
+        <a href="#"><img src="/icons/youtube.svg" alt="" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="py-[32px] text-[12px] text-[#D6D6D6]">
+    <div class="max-w-[1340px] mx-auto text-center md:text-start">
+      Copyright © 2025 ・ All rights reserved to Nabih
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile Menu -->
+<div
+  class="fixed top-0 left-0 w-[100dvw] h-[100dvh] bg-black/20 hidden lg:hidden z-50 backdrop-blur-lg"
+  id="mobile-menu-overlay"
+>
+  <div class="flex justify-end h-full">
+    <div class="bg-white w-[280px] h-full shadow-2xl flex flex-col">
+      <!-- Header with close button -->
+      <div
+        class="flex justify-between items-center p-6 border-b border-gray-100"
+      >
+        <img src="/icons/logo.svg" alt="nabih logo" class="h-8" />
+        <button
+          aria-label="Close menu"
+          class="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+          onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-5 h-5 text-gray-600"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="flex-1 p-6">
+        <ul class="flex flex-col gap-1">
+          <li>
+            <a
+              href="/"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="/support"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+              >Support</a
+            >
+          </li>
+          <li>
+            <a
+              href="/privacy-policy"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+              >Privacy Policy</a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:nabih@gmail.com"
+              class="block px-4 py-3 text-gray-700 hover:bg-[#82645A] hover:text-white rounded-lg transition-all duration-200 font-medium"
+              onclick="document.getElementById('mobile-menu-overlay').classList.add('hidden')"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Footer with CTA button -->
+      <div class="p-6 border-t border-gray-100">
+        <a
+          href="#"
+          class="bg-[#82645A] text-white px-6 py-3 rounded-lg block text-center font-medium hover:bg-[#6b5248] transition-colors duration-200"
+          >Registration as a workshop</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
