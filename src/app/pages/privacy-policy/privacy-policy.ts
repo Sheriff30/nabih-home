@@ -54,6 +54,7 @@ export class PrivacyPolicy implements OnInit {
       .get<ApiResponse>('https://dev.nabih.sa/api/content/static-content')
       .subscribe({
         next: (response) => {
+          console.log(response);
           if (response.success) {
             // Find privacy content for customers
             const privacyContent = response.data.contents.find(
