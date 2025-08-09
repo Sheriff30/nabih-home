@@ -51,7 +51,7 @@ export class PrivacyPolicy implements OnInit {
     this.error = '';
 
     this.http
-      .get<ApiResponse>('https://dev.nabih.sa/api/content/static-content')
+      .get<ApiResponse>('https://api.nabih.sa/api/content/static-content')
       .subscribe({
         next: (response) => {
           console.log(response);
